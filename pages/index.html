@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Loja de Roupa</title>
+</head>
+
+
+<body>
+    <!--ESTABELECENDO A HEADER COM TÍTULO, ESTILIZANDO EM UM CONTAINER OCUPANDO TODA LARGURA, DE FUNDO PRETO PADDINDG DE 3 TEXTO BRANCO E CENTRALIZADO-->
+    <header class="container-fluid bg-black p-3 text-white text-center ">
+        <h1>Becka Store</h1>
+
+
+        <button type="button" class="btn btn-light mt-5" data-bs-toggle="collapse" data-bs-target="#sobrenos">Sobre    <!--Botão Collapse com conteúdo oculto-->
+            Nós</button>
+
+        <div id="sobrenos" class="collapse">
+            <p> A loja que veste seu estilo!</p>
+            Fundada em 2022 em Capão da Canoa, nosso foco é trazer as melhores opcoes do
+            mercado e as melhores marcas!
+            <p>Não perca tempo e garanta a sua!</p>
+        </div>
+
+    </header>
+
+    <!--Barra de Navegação na propria página, uso de padding--> <!--Classe de alinhamento esquerda-->
+    <nav class="navbar navbar-expand-sm bg-dark p-2 ">
+        <div class="dropdown"> <!--Incluir um menu suspenso (DropDown);-->
+            <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                Navegação
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Home</a></li>
+                <li><a class="dropdown-item" href="camisetas.html">Camisetas</a></li>
+                <hr class="dropdown-divider"></hr>
+                <li><a class="dropdown-item" href="cadastro.html">Cadastro</a></li>
+                <li><a class="dropdown-item" href="contato.html">Contato</a></li>
+                
+
+            </ul>
+        </div>
+
+        <!--Barra de Navegação com rede sociais -->
+        <div class="container-fluid justify-content-end "> <!--Classe de alinhamento direita-->
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <img class="me-1" src="../img/Instagram-Icon.png" style="width: 25px" />
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a target="_blank" href="https://www.whatsapp.com/?lang=pt_br">
+                        <img src="../img/whatsapp-icon-transparent-png-6.png" style="width: 25px" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--PÁGINA PRINCIPAL-->
+    <section class="container-fluid"> <!--Conter 5 ou mais imagens-->
+
+        <div class="row"><!--LINHA DA COLUNA-->
+
+            <div class="col-sm-12 col-md-6 col-lg-4"><!--COLUNA-->
+
+                <div class="card mt-3"><!--CARTAO-->
+                    <img class="card-img-top" src="../img/TH6709_001_20.avif" alt="Lacoste 1">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Camiseta Lacoste</h4>
+                        <p class="card-text text-center">Lorem ipsum dolor sit amet</p>
+                        <a href="fimcompra.html" class="btn btn-primary d-grid gap-2 col-6 mx-auto">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-6 col-lg-4"><!--COLUNA-->
+
+                <div class="card mt-3"><!--CARTAO--> <!--Utilizar cards, uso de margem-->
+                    <img class="card-img-top" src="../img/TH6847_001_20.avif" alt="Lacoste 1">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Camiseta Lacoste</h4>
+                        <p class="card-text text-center">Lorem ipsum dolor sit amet</p>
+                        <a href="fimcompra.html" class="btn btn-primary d-grid gap-2 col-6 mx-auto">Comprar</a>
+                        <!--Conter mais de uma página;-->
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-6 col-lg-4"><!--COLUNA-->
+
+                <div class="card mt-3"><!--CARTAO-->
+                    <img class="card-img-top" src="../img/TH8687_70V_20.avif" alt="Lacoste 1">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Camiseta Lacoste</h4>
+                        <p class="card-text text-center">Lorem ipsum dolor sit amet</p>
+                        <a href="fimcompra.html" class="btn btn-primary d-grid gap-2 col-6 mx-auto">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-6 col-lg-4"><!--COLUNA-->
+
+                <div class="card mt-3"><!--CARTAO-->
+                    <img class="card-img-top" src="../img/TH8698_001_20.avif" alt="Lacoste 1">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Camiseta Lacoste</h4>
+                        <p class="card-text text-center">Lorem ipsum dolor sit amet</p>
+                        <a href="fimcompra.html" class="btn btn-primary d-grid gap-2 col-6 mx-auto">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-6 col-lg-4"><!--COLUNA-->
+
+                <div class="card mt-3"><!--CARTAO-->
+                    <img class="card-img-top" src="../img/TH8698_CCA_20.avif" alt="Lacoste 1">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Camiseta Lacoste</h4>
+                        <p class="card-text text-center">Lorem ipsum dolor sit amet</p>
+                        <a href="fimcompra.html" class="btn btn-primary d-grid gap-2 col-6 mx-auto">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-12 col-md-6 col-lg-4"><!--COLUNA-->
+
+                <div class="card mt-3"><!--CARTAO-->
+                    <img class="card-img-top" src="../img/TH8782_001_20.avif" alt="Lacoste 1">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Camiseta Lacoste</h4>
+                        <p class="card-text text-center">Lorem ipsum dolor sit amet</p>
+                        <a href="fimcompra.html" class="btn btn-primary d-grid gap-2 col-6 mx-auto">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Carrossel-->
+    <div id="demo" class="carousel slide w-50 mx-auto mt-5" data-bs-ride="carousel">
+
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+
+        <div class="carousel-inner">
+
+            <div class="carousel-item active ">
+                <img src="../img/casaco.png" alt="Casacos" class="d-block w-100">
+                <div class="carousel-caption text-black">
+                    <h3>Casacos</h3>
+                    <p>Confira os modelos de casacos</p>
+                </div>
+            </div>
+
+
+
+            <div class="carousel-item ">
+                <img src="../img/calca.png" alt="Calças" class="d-block w-100">
+                <div class="carousel-caption text-black">
+                    <h3>Calças</h3>
+                    <p>Confira nossos modelos de calças</p>
+                </div>
+            </div>
+
+
+
+            <div class="carousel-item ">
+                <img src="../img/acessorio.png" alt="Acessorios" class="d-block w-100">
+                <div class="carousel-caption text-black">
+                    <h3>Acessorios</h3>
+                    <p>Confira os acessórios disponíveis</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon btn btn-dark"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon btn btn-dark"></span>
+        </button>
+    </div>
+
+
+
+    <ul class="pagination mt-5 justify-content-center">                                       <!--PAGINACAO-->
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="pagina_2.html">2</a></li>
+      </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
